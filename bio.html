@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio</title>
+    <link rel="stylesheet" href="biostyle.css">
+    <script>
+        function hideMobile() {
+            const mobileField = document.getElementById("mobile");
+            mobileField.innerHTML = mobileField.innerHTML.replace(/\d/g, '*');
+        }
+
+        document.addEventListener("DOMContentLoaded", hideMobile);
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Biodata</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Personal Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>Namratha</td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td>Vivek Manjunath</td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td>Mamatha</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>14/02/2004</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Known Languages</td>
+                    <td>Kannada,Hindi,English</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>namrathampatel@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td id="mobile">7338241896</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Namratha</p>
+    </footer>
+</body>
+</html>

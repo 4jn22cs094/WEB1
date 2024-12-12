@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a3e1dc, #e2f0cb);
+    color: #333;
+}
+header {
+    background-color: #55cbcd;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+thead {
+    background-color: #b5ead6;
+    color: white;
+}
+thead th {
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #97c1a9;
+}
+tbody tr:nth-child(even) {
+    background-color: #cce2cb;
+}
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+td:first-child {
+    font-weight: bold;
+    color: #660066;
+}
+td:last-child {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffb8b1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
